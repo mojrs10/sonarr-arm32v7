@@ -1,3 +1,10 @@
+permissions:
+  contents: write   # Omogućava GitHub Actions-u pisanje u repozitorij (commit, push)
+  pull-requests: write  # Omogućava GitHub Actions-u upravljanje pull zahtjevima
+  issues: write  # Omogućava GitHub Actions-u upravljanje problemima
+  discussions: write  # Omogućava GitHub Actions-u upravljanje diskusijama
+
+# Ostatak workflow-a
 name: Auto Build Sonarr
 
 on:
