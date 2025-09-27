@@ -1,6 +1,5 @@
 # syntax=docker/dockerfile:1
 
-# FROM mojrapid/baseimage:ubuntu_jammy_s6_plex
 FROM mojrapid/baseimage:ubuntu-jammy_s6_full
 
 # set version label
